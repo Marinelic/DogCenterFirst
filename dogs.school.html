@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Dog School</title>
+        <link rel="stylesheet" href="css/style-dschool.css">
+    </head>
+    <body>
+        <h1>Your Dog - we want to get to know him better!</h1>
+        
+        <form>
+            <label for="firstName">First Name</label>
+            <input type="firstName" id="firstName">
+
+            <br>
+            <br>
+
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName">
+
+            <br>
+            <br>
+
+            <label>Years:</label>
+            <input type="number" name="age">
+
+            <br>
+            <br>
+
+            <label for="gender">Gender of dog:</label>
+            <select id="gender" name="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+
+            <br>
+            <br>
+
+            <label for="message">Message:</label>
+            <textarea name="message" id="message" placeholder="Does your dog have any problem maybe?"></textarea>
+
+            <br>
+            <br>
+
+            <fieldset>
+                <legend>Is this your first dog?</legend>
+                    <input type="radio" name="choice" id="yes"><label for="yes">Yes!</label>
+                    <input type="radio" name="choice" id="no"><label for="no">No!</label>
+            </fieldset>
+
+            <br>
+            <br>
+
+            <fieldset>
+                <legend>What meal does your dog like to eat the most?</legend>
+                    <input type="checkbox" name="favoriteMeal" id="breakFast"><label for="breakFast">Breakfast</label>
+                    <input type="checkbox" name="favoriteMeal" id="lunch"><label for="lunch">Lunch</label>
+                    <input type="checkbox" name="favoriteMeal" id="dinner"><label for="dinner">Dinner</label>
+            </fieldset>
+
+            <br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+
+            <br>
+            <br>
+
+            <input type="checkbox" checked>I want you to keep me informed of news in the center!</input>
+
+            <br>
+            <br>
+            <input type="submit" value="Donate!">
+
+        </form>
+    </body>

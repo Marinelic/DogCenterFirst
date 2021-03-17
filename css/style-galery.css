@@ -1,0 +1,66 @@
+/* h1 {
+    color:rgb(213, 54, 228);
+    text-align:center;
+}
+
+body {
+
+}
+
+.image-banner {
+    position: relative;
+}
+
+.banner-description  {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+} */
+
+
+html {
+    background-color: #a7cfd4;
+  }
+
+h1 {
+    color: blue;
+    text-align: center;
+}
+  
+  body {
+    font-family: Tahoma, sans-serif;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Banner Overlay */
+  .image-banner {
+    position: relative;
+  }
+  
+  .image-banner img {
+    display: block;
+  }
+  
+  .banner-description {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: rgb(110, 43, 5);
+    background-color: rgba(148, 116, 56, 0.65);
+    padding: 15px 25px;
+  }
+
+  container {
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFF;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+  }
+  

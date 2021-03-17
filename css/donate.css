@@ -1,0 +1,30 @@
+/* Table Style */
+table {
+    border-spacing: 0;
+    width: 40%;
+}
+
+table th {
+    text-align: center;
+    background-color: rgb(214, 179, 24);
+    color: rgb(7, 7, 7);
+    padding: 10px;
+}
+
+table td {
+    border: 1px solid rgb(54, 54, 206);
+    padding: 10px;
+}
+
+table tbody tr:nth-child(odd) td {
+    background-color: rgb(192, 218, 50);
+}
+
+table tbody tr:nth-child(even) td {
+    background-color: rgb(216, 219, 48);
+}
+
+table tr :nth-child(2),
+table tr :nth-child(3) {
+    text-align: center;
+}
